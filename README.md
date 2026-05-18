@@ -20,7 +20,6 @@ We trained and evaluated a baseline model against an advanced ensemble learning 
 *The Random Forest model outperformed the baseline model by explaining 81.69% of the variance and reducing individual prediction error by over \$19,000.*
 
 ---
-
 ## 🛠️ Project Structure
 ```text
 ├── data/              # Raw data files (housing.csv)
@@ -30,20 +29,28 @@ We trained and evaluated a baseline model against an advanced ensemble learning 
 │   ├── app.py         # Streamlit Web Application interface
 │   └── random_forest_model.pkl  # Trained, serialized winning model
 └── requirements.txt   # Required Python libraries
-⚙️ How to Run This Project Locally
+```
+
+---
+
+## ⚙️ How to Run This Project Locally
 Follow these steps to set up and run the application on your computer:
 
-## 1. Clone the Repository
-Bash
+### 1. Clone the Repository
+```bash
 git clone https://github.com/krishMoradiyaa/house-price-prediction.git
 cd house-price-prediction
+```
 
-## 2. Install Dependencies
+### 2. Install Dependencies
 Make sure you have Python installed, then run:
-Bash
+```bash
 pip install -r requirements.txt
+```
 
-## 3. Launch the Streamlit Web App
-Run the following command to start the interactive dashboard:
+### 3. Launch the Streamlit Web App
+```bash
 streamlit run src/app.py
-This will automatically open the application inside your local web browser.
+```
+
+This will automatically open the application in your browser.
