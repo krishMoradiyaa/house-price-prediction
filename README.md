@@ -30,3 +30,23 @@ We trained and evaluated a baseline model against an advanced ensemble learning 
 │   ├── app.py         # Streamlit Web Application interface
 │   └── random_forest_model.pkl  # Trained, serialized winning model
 └── requirements.txt   # Required Python libraries
+
+
+---
+
+## ⚙️ How to Run This Project Locally
+
+Follow these steps to set up and run the application on your computer:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/krishMoradiyaa/house-price-prediction.git](https://github.com/krishMoradiyaa/house-price-prediction.git)
+cd house-price-prediction
+
+2. Install Dependencies
+Make sure you have Python installed, then run:
+pip install -r requirements.txt
+
+3. Launch the Streamlit Web App
+Run the following command to start the interactive dashboard:
+streamlit run src/app.py
